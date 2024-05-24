@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB076AA2C01097B0070DAFF /* LoopWalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB076A92C01097B0070DAFF /* LoopWalkApp.swift */; };
+		AFB076AC2C01097B0070DAFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB076AB2C01097B0070DAFF /* ContentView.swift */; };
+		AFB076AE2C01097C0070DAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB076AD2C01097C0070DAFF /* Assets.xcassets */; };
+		AFB076B12C01097C0070DAFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB076B02C01097C0070DAFF /* Preview Assets.xcassets */; };
+		AFB076BB2C01097D0070DAFF /* LoopWalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB076BA2C01097D0070DAFF /* LoopWalkTests.swift */; };
+		AFB076C52C01097D0070DAFF /* LoopWalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB076C42C01097D0070DAFF /* LoopWalkUITests.swift */; };
+		AFB076C72C01097D0070DAFF /* LoopWalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB076C62C01097D0070DAFF /* LoopWalkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB076B72C01097D0070DAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB0769E2C01097B0070DAFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB076A52C01097B0070DAFF;
+			remoteInfo = LoopWalk;
+		};
+		AFB076C12C01097D0070DAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB0769E2C01097B0070DAFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB076A52C01097B0070DAFF;
+			remoteInfo = LoopWalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB076A62C01097B0070DAFF /* LoopWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB076A92C01097B0070DAFF /* LoopWalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopWalkApp.swift; sourceTree = "<group>"; };
+		AFB076AB2C01097B0070DAFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFB076AD2C01097C0070DAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB076B02C01097C0070DAFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFB076B62C01097D0070DAFF /* LoopWalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopWalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB076BA2C01097D0070DAFF /* LoopWalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopWalkTests.swift; sourceTree = "<group>"; };
+		AFB076C02C01097D0070DAFF /* LoopWalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopWalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB076C42C01097D0070DAFF /* LoopWalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopWalkUITests.swift; sourceTree = "<group>"; };
+		AFB076C62C01097D0070DAFF /* LoopWalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopWalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB076A32C01097B0070DAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB076B32C01097D0070DAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB076BD2C01097D0070DAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB0769D2C01097B0070DAFF = {
+			isa = PBXGroup;
+			children = (
+				AFB076A82C01097B0070DAFF /* LoopWalk */,
+				AFB076B92C01097D0070DAFF /* LoopWalkTests */,
+				AFB076C32C01097D0070DAFF /* LoopWalkUITests */,
+				AFB076A72C01097B0070DAFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB076A72C01097B0070DAFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB076A62C01097B0070DAFF /* LoopWalk.app */,
+				AFB076B62C01097D0070DAFF /* LoopWalkTests.xctest */,
+				AFB076C02C01097D0070DAFF /* LoopWalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB076A82C01097B0070DAFF /* LoopWalk */ = {
+			isa = PBXGroup;
+			children = (
+				AFB076A92C01097B0070DAFF /* LoopWalkApp.swift */,
+				AFB076AB2C01097B0070DAFF /* ContentView.swift */,
+				AFB076AD2C01097C0070DAFF /* Assets.xcassets */,
+				AFB076AF2C01097C0070DAFF /* Preview Content */,
+			);
+			path = LoopWalk;
+			sourceTree = "<group>";
+		};
+		AFB076AF2C01097C0070DAFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFB076B02C01097C0070DAFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFB076B92C01097D0070DAFF /* LoopWalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB076BA2C01097D0070DAFF /* LoopWalkTests.swift */,
+			);
+			path = LoopWalkTests;
+			sourceTree = "<group>";
+		};
+		AFB076C32C01097D0070DAFF /* LoopWalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB076C42C01097D0070DAFF /* LoopWalkUITests.swift */,
+				AFB076C62C01097D0070DAFF /* LoopWalkUITestsLaunchTests.swift */,
+			);
+			path = LoopWalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB076A52C01097B0070DAFF /* LoopWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB076CA2C01097D0070DAFF /* Build configuration list for PBXNativeTarget "LoopWalk" */;
+			buildPhases = (
+				AFB076A22C01097B0070DAFF /* Sources */,
+				AFB076A32C01097B0070DAFF /* Frameworks */,
+				AFB076A42C01097B0070DAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopWalk;
+			productName = LoopWalk;
+			productReference = AFB076A62C01097B0070DAFF /* LoopWalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB076B52C01097D0070DAFF /* LoopWalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB076CD2C01097D0070DAFF /* Build configuration list for PBXNativeTarget "LoopWalkTests" */;
+			buildPhases = (
+				AFB076B22C01097D0070DAFF /* Sources */,
+				AFB076B32C01097D0070DAFF /* Frameworks */,
+				AFB076B42C01097D0070DAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB076B82C01097D0070DAFF /* PBXTargetDependency */,
+			);
+			name = LoopWalkTests;
+			productName = LoopWalkTests;
+			productReference = AFB076B62C01097D0070DAFF /* LoopWalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFB076BF2C01097D0070DAFF /* LoopWalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB076D02C01097D0070DAFF /* Build configuration list for PBXNativeTarget "LoopWalkUITests" */;
+			buildPhases = (
+				AFB076BC2C01097D0070DAFF /* Sources */,
+				AFB076BD2C01097D0070DAFF /* Frameworks */,
+				AFB076BE2C01097D0070DAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB076C22C01097D0070DAFF /* PBXTargetDependency */,
+			);
+			name = LoopWalkUITests;
+			productName = LoopWalkUITests;
+			productReference = AFB076C02C01097D0070DAFF /* LoopWalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB0769E2C01097B0070DAFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AFB076A52C01097B0070DAFF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AFB076B52C01097D0070DAFF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AFB076A52C01097B0070DAFF;
+					};
+					AFB076BF2C01097D0070DAFF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AFB076A52C01097B0070DAFF;
+					};
+				};
+			};
+			buildConfigurationList = AFB076A12C01097B0070DAFF /* Build configuration list for PBXProject "LoopWalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB0769D2C01097B0070DAFF;
+			productRefGroup = AFB076A72C01097B0070DAFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB076A52C01097B0070DAFF /* LoopWalk */,
+				AFB076B52C01097D0070DAFF /* LoopWalkTests */,
+				AFB076BF2C01097D0070DAFF /* LoopWalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB076A42C01097B0070DAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB076B12C01097C0070DAFF /* Preview Assets.xcassets in Resources */,
+				AFB076AE2C01097C0070DAFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB076B42C01097D0070DAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB076BE2C01097D0070DAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB076A22C01097B0070DAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB076AC2C01097B0070DAFF /* ContentView.swift in Sources */,
+				AFB076AA2C01097B0070DAFF /* LoopWalkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB076B22C01097D0070DAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB076BB2C01097D0070DAFF /* LoopWalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB076BC2C01097D0070DAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB076C72C01097D0070DAFF /* LoopWalkUITestsLaunchTests.swift in Sources */,
+				AFB076C52C01097D0070DAFF /* LoopWalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB076B82C01097D0070DAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB076A52C01097B0070DAFF /* LoopWalk */;
+			targetProxy = AFB076B72C01097D0070DAFF /* PBXContainerItemProxy */;
+		};
+		AFB076C22C01097D0070DAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB076A52C01097B0070DAFF /* LoopWalk */;
+			targetProxy = AFB076C12C01097D0070DAFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFB076C82C01097D0070DAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFB076C92C01097D0070DAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB076CB2C01097D0070DAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoopWalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 2L45URZXWU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devi.LoopWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB076CC2C01097D0070DAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoopWalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 2L45URZXWU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devi.LoopWalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFB076CE2C01097D0070DAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L45URZXWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devi.LoopWalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopWalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoopWalk";
+			};
+			name = Debug;
+		};
+		AFB076CF2C01097D0070DAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L45URZXWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devi.LoopWalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopWalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoopWalk";
+			};
+			name = Release;
+		};
+		AFB076D12C01097D0070DAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L45URZXWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devi.LoopWalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoopWalk;
+			};
+			name = Debug;
+		};
+		AFB076D22C01097D0070DAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L45URZXWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devi.LoopWalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoopWalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB076A12C01097B0070DAFF /* Build configuration list for PBXProject "LoopWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB076C82C01097D0070DAFF /* Debug */,
+				AFB076C92C01097D0070DAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB076CA2C01097D0070DAFF /* Build configuration list for PBXNativeTarget "LoopWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB076CB2C01097D0070DAFF /* Debug */,
+				AFB076CC2C01097D0070DAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB076CD2C01097D0070DAFF /* Build configuration list for PBXNativeTarget "LoopWalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB076CE2C01097D0070DAFF /* Debug */,
+				AFB076CF2C01097D0070DAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB076D02C01097D0070DAFF /* Build configuration list for PBXNativeTarget "LoopWalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB076D12C01097D0070DAFF /* Debug */,
+				AFB076D22C01097D0070DAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB0769E2C01097B0070DAFF /* Project object */;
+}
