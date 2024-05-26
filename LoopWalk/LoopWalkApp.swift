@@ -1,14 +1,9 @@
-//
-//  LoopWalkApp.swift
-//  LoopWalk
-//
-//  Created by vagdevi ponugupati on 24/05/2024.
-//
-
 import SwiftUI
 
 @main
 struct LoopWalkApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()

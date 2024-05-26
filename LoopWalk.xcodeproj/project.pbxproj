@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61CA14D845CBEE3756022E39 /* Pods_LoopWalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D16D27B69B1B623ADABAAF /* Pods_LoopWalk.framework */; };
+		AF87A2FF2C01BBEA00473784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87A2FE2C01BBEA00473784 /* AppDelegate.swift */; };
 		AFB076AA2C01097B0070DAFF /* LoopWalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB076A92C01097B0070DAFF /* LoopWalkApp.swift */; };
 		AFB076AC2C01097B0070DAFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB076AB2C01097B0070DAFF /* ContentView.swift */; };
 		AFB076AE2C01097C0070DAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB076AD2C01097C0070DAFF /* Assets.xcassets */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04D16D27B69B1B623ADABAAF /* Pods_LoopWalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoopWalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3AE176342CDA8BBCA5FA30 /* Pods-LoopWalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopWalk.debug.xcconfig"; path = "Target Support Files/Pods-LoopWalk/Pods-LoopWalk.debug.xcconfig"; sourceTree = "<group>"; };
+		885C6FEB67DB7F1E6CB17BDE /* Pods-LoopWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopWalk.release.xcconfig"; path = "Target Support Files/Pods-LoopWalk/Pods-LoopWalk.release.xcconfig"; sourceTree = "<group>"; };
+		AF87A2FE2C01BBEA00473784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFB076A62C01097B0070DAFF /* LoopWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB076A92C01097B0070DAFF /* LoopWalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopWalkApp.swift; sourceTree = "<group>"; };
 		AFB076AB2C01097B0070DAFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CA14D845CBEE3756022E39 /* Pods_LoopWalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		419D91AC50B368F46BDE10C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D16D27B69B1B623ADABAAF /* Pods_LoopWalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48D275F3F6A988178B08E780 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C3AE176342CDA8BBCA5FA30 /* Pods-LoopWalk.debug.xcconfig */,
+				885C6FEB67DB7F1E6CB17BDE /* Pods-LoopWalk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AFB0769D2C01097B0070DAFF = {
 			isa = PBXGroup;
 			children = (
+				AF87A2FE2C01BBEA00473784 /* AppDelegate.swift */,
 				AFB076A82C01097B0070DAFF /* LoopWalk */,
 				AFB076B92C01097D0070DAFF /* LoopWalkTests */,
 				AFB076C32C01097D0070DAFF /* LoopWalkUITests */,
 				AFB076A72C01097B0070DAFF /* Products */,
+				48D275F3F6A988178B08E780 /* Pods */,
+				419D91AC50B368F46BDE10C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFB076CA2C01097D0070DAFF /* Build configuration list for PBXNativeTarget "LoopWalk" */;
 			buildPhases = (
+				526806754686314345685D9D /* [CP] Check Pods Manifest.lock */,
 				AFB076A22C01097B0070DAFF /* Sources */,
 				AFB076A32C01097B0070DAFF /* Frameworks */,
 				AFB076A42C01097B0070DAFF /* Resources */,
+				A9559B04B38CF2648BF12C15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,11 +281,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		526806754686314345685D9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoopWalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9559B04B38CF2648BF12C15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoopWalk/Pods-LoopWalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoopWalk/Pods-LoopWalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoopWalk/Pods-LoopWalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFB076A22C01097B0070DAFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF87A2FF2C01BBEA00473784 /* AppDelegate.swift in Sources */,
 				AFB076AC2C01097B0070DAFF /* ContentView.swift in Sources */,
 				AFB076AA2C01097B0070DAFF /* LoopWalkApp.swift in Sources */,
 			);
@@ -416,6 +488,7 @@
 		};
 		AFB076CB2C01097D0070DAFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3AE176342CDA8BBCA5FA30 /* Pods-LoopWalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,12 +497,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LoopWalk/Preview Content\"";
 				DEVELOPMENT_TEAM = 2L45URZXWU;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,14 +513,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = devi.LoopWalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AFB076CC2C01097D0070DAFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885C6FEB67DB7F1E6CB17BDE /* Pods-LoopWalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,12 +533,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LoopWalk/Preview Content\"";
 				DEVELOPMENT_TEAM = 2L45URZXWU;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +549,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = devi.LoopWalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
